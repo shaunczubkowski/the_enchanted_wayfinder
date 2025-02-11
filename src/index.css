@@ -1,18 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Space+Grotesk:wght@300..700&display=swap");
 @import "tailwindcss";
 
 @theme {
   --color-burlywood: #deb887;
   --color-deep-gray: #2f2f2f;
+  --color-deep-purple: #4a2545;
   --color-deep-romantic-brown: #2c1810;
   --color-dusty-rose: #9b6b9e;
   --color-golden-rod: #daa520;
   --color-light-pink: #f5e6e8;
   --color-rose-pink: #e8b4bc;
   --color-saddle-brown: #8b4513;
+  --font-lavishly-yours: "Lavishly Yours", serif;
+  --font-space-grotesk: "Space Grotesk", serif;
 }
 
 body {
-  @apply min-h-screen w-full overflow-x-hidden bg-light-pink text-deep-romantic-brown;
+  @apply font-space-grotesk min-h-screen w-full overflow-x-hidden bg-light-pink text-deep-romantic-brown;
   /* Prevent pull-to-refresh on iOS */
   overscroll-behavior-y: none;
 }

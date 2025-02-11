@@ -8,7 +8,7 @@ const Chapter1 = () => {
 
   return (
     <div className="min-h-screen flex flex-col justify-between p-6">
-      <h1 className="text-4xl text-saddle-brown mb-3">
+      <h1 className="font-lavishly-yours text-4xl text-saddle-brown mb-3">
         Chapter One: Where Dreams Take Form
       </h1>
       <p>
@@ -17,14 +17,15 @@ const Chapter1 = () => {
         golden script, each letter flowing like ink across parchment:
       </p>
       <div className="flex flex-col gap-2 m-3 bg-rose-pink p-3 rounded-sm italic shadow-md">
+        {/* TODO: Update Poem based on location */}
         <p>
           "In this space where art meets story, Where bookish dreams find their
-          glory, Seek the place where you create Those perfect pauses in
+          glory, Seek the place where you create those perfect pauses in
           readers' fate.
         </p>
         <p>
           Among tools that guide creative flight, And craft the vessels for
-          margin-side delight, Your gift awaits, artfully concealed Where
+          margin-side delight, your gift awaits, artfully concealed where
           precision's touch is revealed.
         </p>
         <p>

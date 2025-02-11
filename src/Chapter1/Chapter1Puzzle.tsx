@@ -2,7 +2,7 @@ const Chapter1Puzzle = () => {
   const MOMENT = "moment";
 
   return (
-    <div>
+    <div className="p-6 flex flex-col justify-between min-h-screen">
       <p>
         Clever darling! But before you discover your first gift, let's play a
         game of "Creator's Words" - a puzzle after your own literary heart. You
@@ -11,7 +11,8 @@ const Chapter1Puzzle = () => {
         but in the wrong position (shown in silver).
       </p>
       {/* Wordle Clone*/}
-      <div></div>
+      <div className="text-center">Wordle Clone</div>
+      <div>Hint...</div>
     </div>
   );
 };
