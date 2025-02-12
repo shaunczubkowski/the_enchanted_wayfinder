@@ -20,7 +20,7 @@ const Chapter1PostPuzzle = () => {
       </p>
 
       {found ? (
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 mt-3">
           <p>
             How fitting that your first treasure lies here, where imagination
             takes tangible form. Every bookmark you craft is an invitation to

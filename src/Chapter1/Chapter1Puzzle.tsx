@@ -1,17 +1,17 @@
+import WordleClone from "../components/WordleClone/WordleClone";
+
 const Chapter1Puzzle = () => {
-  const MOMENT = "moment";
+  const CUPID = "CUPID";
 
   return (
     <div className="p-6 flex flex-col justify-between min-h-screen">
       <p>
         Clever darling! But before you discover your first gift, let's play a
         game of "Creator's Words" - a puzzle after your own literary heart. You
-        have six attempts to guess today's word, with each guess revealing which
-        letters are correct and in the right position (shown in gold) or correct
-        but in the wrong position (shown in silver).
+        have six attempts to guess today's word.
       </p>
       {/* Wordle Clone*/}
-      <div className="text-center">Wordle Clone</div>
+      <WordleClone wordOfTheDay={CUPID} />
       <div>Hint...</div>
     </div>
   );

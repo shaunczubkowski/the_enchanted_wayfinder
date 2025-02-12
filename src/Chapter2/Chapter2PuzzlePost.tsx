@@ -13,8 +13,8 @@ const Chapter2PostPuzzle = () => {
         <h1 className="font-lavishly-yours text-4xl text-saddle-brown mb-3">
           Ah, but which shelf?
         </h1>
-        <p>Perhaps this final riddle will illuminate:</p>
-        <div className="flex flex-col bg-rose-pink p-3 rounded-sm italic shadow-md">
+        <p className="mb-3">Perhaps this final riddle will illuminate:</p>
+        <div className="flex flex-col bg-rose-pink p-3 rounded-sm italic shadow-md mb-3">
           <div className="my-1">
             {/* TODO: Update once book is selected to hide gc. */}
             <p>Between the duke and the CEO,</p>
