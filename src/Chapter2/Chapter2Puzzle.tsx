@@ -1,6 +1,7 @@
 import { useState } from "react";
 import MagicWordInput from "../components/MagicWordInput";
 import SubmitAndNavigateButton from "../components/SubmitAndNavigateButton";
+import HintButton from "../components/HintButton";
 
 const Chapter2Puzzle = () => {
   const SHELF = "shelf";
@@ -37,6 +38,7 @@ const Chapter2Puzzle = () => {
           magicWord={SHELF}
           navigateTo="/chapter2/puzzle/post"
         />
+        <HintButton />
       </div>
     </div>
   );

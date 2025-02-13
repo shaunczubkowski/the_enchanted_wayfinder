@@ -8,7 +8,7 @@ const Chapter1PostPuzzle = () => {
   const [inputText, setInputText] = useState("");
 
   return (
-    <div className="p-6">
+    <div className="p-6 flex flex-col justify-between">
       <h1 className="font-lavishly-yours text-4xl text-saddle-brown mb-3">
         Brilliant!
       </h1>
@@ -20,27 +20,29 @@ const Chapter1PostPuzzle = () => {
       </p>
 
       {found ? (
-        <div className="flex flex-col gap-3 mt-3">
-          <p>
-            How fitting that your first treasure lies here, where imagination
-            takes tangible form. Every bookmark you craft is an invitation to
-            adventure, every annotation bag a vessel for readers' deepest
-            thoughts. You've created more than just products – you've crafted
-            companions for countless literary journeys, from sweet romantic
-            escapes to passionate adventures.
-          </p>
+        <div className="flex flex-col gap-3 mt-3 ">
+          <div className="m-3 bg-rose-pink p-3 rounded-sm italic shadow-md space-y-2">
+            <p>
+              How fitting that your first treasure lies here, where imagination
+              takes tangible form. Every bookmark you craft is an invitation to
+              adventure, every annotation bag a vessel for readers' deepest
+              thoughts. You've created more than just products – you've crafted
+              companions for countless literary journeys, from sweet romantic
+              escapes to passionate adventures.
+            </p>
 
-          <p>
-            Your art gives readers permission to pause, to feel, to mark every
-            precious moment worth remembering. From your elegantly suggestive
-            designs to your practical annotation solutions, you've mastered the
-            art of making reading a more personal experience.
-          </p>
+            <p>
+              Your art gives readers permission to pause, to feel, to mark every
+              precious moment worth remembering. From your elegantly suggestive
+              designs to your practical annotation solutions, you've mastered
+              the art of making reading a more personal experience.
+            </p>
 
-          <p>
-            When you're ready to turn the page to your next adventure, whisper
-            "Enchant the Next Chapter" to your Wayfinder.
-          </p>
+            <p>
+              When you're ready to turn the page to your next adventure, whisper
+              "Enchant the Next Chapter" to your Wayfinder.
+            </p>
+          </div>
           <MagicWordInput value={inputText} setValue={setInputText} />
           <SubmitAndNavigateButton
             guess={inputText}

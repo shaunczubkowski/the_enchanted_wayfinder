@@ -10,6 +10,9 @@ import Chapter2 from "./Chapter2/Chapter2.tsx";
 import Chapter2Puzzle from "./Chapter2/Chapter2Puzzle.tsx";
 import Chapter2PostPuzzle from "./Chapter2/Chapter2PuzzlePost.tsx";
 import Chapter3 from "./Chapter3/Chapter3.tsx";
+import Chapter3Puzzle from "./Chapter3/Chapter3Puzzle.tsx";
+import Chapter3PostPuzzle from "./Chapter3/Chapter3PuzzlePost.tsx";
+import Ending from "./Ending.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -23,6 +26,9 @@ createRoot(document.getElementById("root")!).render(
         <Route path="chapter2/puzzle" element={<Chapter2Puzzle />} />
         <Route path="chapter2/puzzle/post" element={<Chapter2PostPuzzle />} />
         <Route path="chapter3" element={<Chapter3 />} />
+        <Route path="chapter3/puzzle" element={<Chapter3Puzzle />} />
+        <Route path="chapter3/puzzle/post" element={<Chapter3PostPuzzle />} />
+        <Route path="ending" element={<Ending />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
