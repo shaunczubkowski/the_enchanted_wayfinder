@@ -66,22 +66,3 @@ export const WordleGame: React.FC<WordleProps> = ({
     </div>
   );
 };
-
-// Usage example:
-/*
-import { WordleGame } from './components/WordleGame';
-
-const App = () => {
-  return (
-    <div className="p-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Daily Wordle</h1>
-      <WordleGame 
-        word="REACT"
-        onWin={() => console.log('Game won!')}
-        onLose={() => console.log('Game lost')}
-        onGuess={(guess) => console.log('New guess:', guess)}
-      />
-    </div>
-  );
-};
-*/

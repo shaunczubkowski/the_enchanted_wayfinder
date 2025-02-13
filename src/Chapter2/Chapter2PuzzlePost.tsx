@@ -3,7 +3,7 @@ import MagicWordInput from "../components/MagicWordInput";
 import SubmitAndNavigateButton from "../components/SubmitAndNavigateButton";
 
 const Chapter2PostPuzzle = () => {
-  const WHISPER = "love's next page";
+  const WHISPER = "loves next page";
   const [found, setFound] = useState(false);
   const [inputText, setInputText] = useState("");
 
