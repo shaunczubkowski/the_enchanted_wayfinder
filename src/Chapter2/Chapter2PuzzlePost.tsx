@@ -16,11 +16,16 @@ const Chapter2PostPuzzle = () => {
         <p className="mb-3">Perhaps this final riddle will illuminate:</p>
         <div className="flex flex-col bg-rose-pink p-3 rounded-sm italic shadow-md mb-3">
           <div className="my-1">
-            {/* TODO: Update once book is selected to hide gc. */}
-            <p>Between the duke and the CEO,</p>
-            <p>Past the bad boy's roguish glow,</p>
-            <p>Where billionaires and florists meet,</p>
-            <p>Your gift awaits, the journey sweet.</p>
+            <p>On your shelf of dreams unfurled,</p>
+            <p>Where victors shape their chosen world,</p>
+            <p>Between decisions, fates, and bliss—</p>
+            <p>Look where champions share a kiss.</p>
+          </div>
+          <div className="my-1">
+            <p>Past war's shadow, past the crown,</p>
+            <p>Where choices weigh a kingdom down,</p>
+            <p>Your gift awaits in pages true,</p>
+            <p>Where winners' hearts beat anew.</p>
           </div>
         </div>
       </div>
